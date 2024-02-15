@@ -1001,4 +1001,40 @@ input[type="submit"].main-btn:hover {
   border-color: var(--color-secondary); /* Color del borde al pasar el ratón */
 }
 
+.tech-logos {
+  display: flex;
+  justify-content: space-between;
+  max-width: 400px;
+  margin: 0 auto;
+  font-size: 2.5em;
+  padding: 0 10px;
+}
+
+.tech-logos span {
+  font-size: 2rem;
+  transition: transform 0.2s ease-in-out;
+  margin-right: 2rem;
+  padding-bottom: 1rem; /* add more space above each logo */
+  display: block; /* make each span a block-level element to contain the padding */
+}
+
+.tech-logos span:last-child {
+  margin-right: 0;
+  padding-bottom: 0; /* remove padding on the last logo */
+}
+
+.tech-logos span:hover {
+  transform: translateY(-5px);
+}
+.maintenance-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  padding: .4em 0;
+}
+
+.maintenance-icon i {
+  font-size: 2em;
+}
 /*# sourceMappingURL=styles.css.map */
